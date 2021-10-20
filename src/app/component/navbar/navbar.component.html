@@ -1,0 +1,48 @@
+<nav class="navbar navbar-expand-lg navbar-dark" style="background: #665E5D; ">
+    <div class="container-fluid">
+        <a class="navbar-brand px-3" href="#">
+            <img src="assets/img/azor.png" alt="" height="58" width="54">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+        <div class="d-flex justify-content-md-end collapse navbar-collapse" id="navbarSupportedContent">
+
+            <ul class="navbar-nav px-5">
+                <li class="nav-item active ">
+                    <a class="nav-link text-light" routerLink="/">Inicio</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link text-light" routerLink="news">Noticias</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link text-light" routerLink="member">Miembros</a>
+                </li>
+                <li class="nav-item active dropdown ">
+                    <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdown" data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                 Galeria
+                </a>
+                    <div class=" dropdown-menu " style="background: #665E5D; " aria-labelledby="navbarDropdown ">
+                        <a routerLink="photo" class="dropdown-item text-light">Imagenes</a>
+                        <div class=" dropdown-divider "></div>
+                        <a routerLink="video" class="dropdown-item text-light">Videos</a>
+                    </div>
+                </li>
+            </ul>
+
+            <ul class="navbar-nav px-5">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown text-light" href="#" id="navbarDropdown" data-bs-toggle="dropdown">
+                        <i class="fas fa-user-circle fa-3x"></i>
+                    </a>
+                    <div class=" dropdown-menu " style="background: #665E5D; " aria-labelledby="navbarDropdown ">
+                        <a routerLink="login" class="dropdown-item text-light">Login</a>
+                        <!-- <div class=" dropdown-divider "></div> -->
+                        <!-- <a routerLink="video" class="dropdown-item text-light">Videos</a> -->
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
